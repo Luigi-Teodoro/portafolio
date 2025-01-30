@@ -12,30 +12,13 @@
 
 ## Sobre mí
 
-Soy un desarrollador apasionado por la tecnología y la programación. Me especializo en [tu especialidad] y tengo experiencia en [tu experiencia].
+Soy un desarrollador apasionado por la tecnología y la programación. 
 
-## Proyectos
 
-Aquí hay algunos de los proyectos en los que he trabajado:
-
-1. **Proyecto 1**: Descripción breve del proyecto.
-2. **Proyecto 2**: Descripción breve del proyecto.
-3. **Proyecto 3**: Descripción breve del proyecto.
-
-## Habilidades
-
-- Lenguajes de programación: [Lenguajes que conoces]
-- Frameworks y librerías: [Frameworks y librerías que usas]
-- Herramientas: [Herramientas que utilizas]
-
-## Experiencia
-
-- **Empresa 1**: Descripción breve de tu rol y responsabilidades.
-- **Empresa 2**: Descripción breve de tu rol y responsabilidades.
 
 ## Contacto
 
-Puedes contactarme a través de [tu correo electrónico] o seguirme en [tus redes sociales].
+Puedes contactarme a través de luigi.tc14@gmail.com 
 
 ¡Gracias por visitar mi portafolio!
 
@@ -48,22 +31,12 @@ Para instalar las dependencias necesarias para este proyecto, sigue estos pasos:
     git clone https://github.com/tu-usuario/portafolio.git
     ```
 
-2. Navega al directorio del proyecto:
-    ```bash
-    cd portafolio
-    ```
+
 
 3. Instala las dependencias utilizando [tu gestor de paquetes preferido] (por ejemplo, npm, yarn, pip, etc.):
     ```bash
     npm install
     ```
-    o
-    ```bash
-    yarn install
+        ```bash
+    npm run dev
     ```
-    o
-    ```bash
-    pip install -r requirements.txt
-    ```
-
-Una vez completados estos pasos, tendrás todas las dependencias necesarias instaladas para ejecutar el proyecto.

@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2d2d2d;
+    text-align: center;
+}
+header {
+    background: #fe6f27;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif 
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.inicio-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+.perfil img {
+    width: 250px;
+    border-radius: 10%;
+    margin-right: 100px;
+}
+.perfil-texto {
+    max-width: 400px;
+}
+.perfil-texto h1 {
+    margin: 0;
+    color: white;
+}
+.perfil-texto p {
+    color: #666;
+
+}
+
+section {
+    padding: 20px;
+}
+h2 {
+    color: white;
+    font-size: 3em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.skill {
+    text-align: left;
+    width: 50%;
+    margin: 10px auto;
+}
+.skill-name {
+    margin: 5px 0;
+}
+.progress-bar {
+    width: 100%;
+    background: #595858;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.progress {
+    height: 20px;
+    background: #0e1f46;
+    text-align: right;
+    line-height: 20px;
+    color: white;
+    padding-right: 5px;
+}
+
+.contact-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.contact-container img {
+    width: 250px;
+    margin-right: 50px;
+}
+.social-icons {
+    display: flex;
+    gap: 15px;
+}
+.social-icons a {
+    display: inline-block;
+}
+.social-icons img {
+    width: 70px;
+    height: 70px;
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: antiquewhite;
+}
+
+.vl {
+    border-top: 100px solid #fe6f27;
+    border-right: 100px solid transparent;
+}
+
+.perfil-texto p {
+    color: aliceblue;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: right;
+}
+
+#proyectos img {
+    width: 20%;
+    height: auto;
+    border-radius: 10%;
+}
