@@ -28,15 +28,13 @@ Para instalar las dependencias necesarias para este proyecto, sigue estos pasos:
 
 1. Clona el repositorio:
     ```bash
-    git clone https://github.com/tu-usuario/portafolio.git
+    git clone https://github.com/Luigi-Teodoro/portafolio
     ```
 
-
-
-3. Instala las dependencias utilizando [tu gestor de paquetes preferido] (por ejemplo, npm, yarn, pip, etc.):
+3. Instala las dependencias 
     ```bash
     npm install
     ```
-        ```bash
+    ```bash
     npm run dev
     ```
