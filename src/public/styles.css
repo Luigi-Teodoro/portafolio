@@ -32,6 +32,7 @@ nav ul li a {
     padding: 40px;
 }
 .perfil img {
+    filter: drop-shadow(2px 2px 20px cyan);
     width: 250px;
     border-radius: 10%;
     margin-right: 100px;
@@ -99,7 +100,15 @@ h2 {
 .social-icons img {
     width: 70px;
     height: 70px;
+    transition: 900ms;
 }
+
+.social-icons img:hover {
+    transform: scale(1.1);
+    transition: 900ms;
+}
+    
+
 
 p {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -118,7 +127,13 @@ p {
 }
 
 #proyectos img {
+    filter: grayscale(100%);
     width: 20%;
     height: auto;
     border-radius: 10%;
+}
+
+#proyectos img:hover {
+    transition: 600ms;
+    filter: grayscale(0%);
 }
