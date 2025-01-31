@@ -137,3 +137,38 @@ p {
     transition: 600ms;
     filter: grayscale(0%);
 }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .inicio-container {
+        flex-direction: column;
+        padding: 20px;
+    }
+    .perfil img {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .perfil-texto {
+        text-align: center;
+    }
+    .skill {
+        width: 80%;
+    }
+    .contact-container {
+        flex-direction: column;
+    }
+    .contact-container img {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    .social-icons {
+        justify-content: center;
+    }
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+    nav ul {
+        text-align: center;
+    }
+}
