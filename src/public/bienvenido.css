@@ -1,0 +1,66 @@
+nav {
+    background-color: transparent; /* Fondo transparente */
+    position: fixed; /* Fija la barra en la parte superior */
+    margin-top: 100px; /* Espacio superior */
+    width: 100%; /* Ocupa todo el ancho */
+    z-index: 1000; /* Asegura que esté encima de otros elementos */
+}
+
+nav ul {
+    list-style: none; /* Elimina los puntos de la lista */
+    margin: 0;
+    padding: 10px 290px;
+    display: flex; /* Alinea los elementos en fila */
+    justify-content: right; /* Centra los elementos horizontalmente */
+    gap: 20px; /* Espaciado entre los elementos */
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none; /* Elimina el subrayado */
+    color: black; /* Cambia el color del texto */
+    font-size: 18px; /* Tamaño del texto */
+    padding: 10px 15px; /* Espaciado interno */
+    transition: color 0.3s ease; /* Transición suave al pasar el mouse */
+}
+
+nav ul li img {
+    width: 30px; /* Ajusta el ancho de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block; /* Asegura que la imagen no tenga espacio extra alrededor */
+    right: auto;
+}
+
+nav ul li a:hover {
+    color: #00bcd4; /* Cambia el color al pasar el mouse */
+}
+
+div {
+    height: 95vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra verticalmente */
+    align-items: center;     /* Centra horizontalmente */
+    text-align: left;
+}
+
+h1 {
+    font-size: 70px;
+    transform: translateX(-177px); /* Mueve el h1 un poco a la izquierda */
+}
+
+h1, p {
+    margin: 20px;
+    padding: 0 20px;
+}
+
+p {
+    font-size: 22px;
+    margin-top: 20px;
+    max-width: 1000px;      /* Limita el ancho del texto */
+    line-height: 1.6;      /* Mejora la legibilidad */
+    text-align: left;      /* Alinea el texto a la izquierda */
+}
